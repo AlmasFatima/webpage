@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: lavender;
+}
+.homebutton:hover{
+    background-color: cadetblue;
+    width: 70px;
+}
+.dropdown1{
+    display: inline-block;
+}
+.dropdown1 a{
+    display: block;
+}
+.dropdown1:hover .homebuttoncontent{
+    display: block;
+}
+.homebuttoncontent{
+    display: none;
+    background-color: bisque;
+}
+.homebuttoncontent a:hover{
+    background-color: aquamarine;
+}
+.progbuttoncontent a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown2{
+    display: inline-block;
+}
+.progbuttoncontent a{
+    display: block;
+    background-color:bisque ;
+}
+.dropdown2:hover .progbuttoncontent{
+    display: block;
+
+}
+.progbuttoncontent{
+    display: none;
+}
+.programmebutton:hover{
+    background-color: cadetblue;
+}
+.contactbutton:hover{
+    background-color: cadetblue;
+}
+.dropdown3{
+    display: inline-block;
+}
+.dropdown3:hover .contactbutncontent{
+    display: block;
+}
+.contactbutncontent a{
+    display: block;
+    text-align: center;
+    background-color: bisque;
+}
+.contactbutncontent{
+    display: none;
+}
+.contactbutncontent a:hover{
+    background-color: aquamarine;
+}
+main img{
+    width:100%;
+}
+.box1{
+    background-color:lavender;
+    width: 400px;
+    height: 400px;
+    transition: width 2s ease-in-out;
+}
+.box1:hover{
+    width: 500px;
+}
+.box1 img{
+    width: 500px;
+    height: 400px;
+}
+.box2{
+    background-color:lavenderblush;
+    width: 400px;
+    height: 400px;
+    transition: width 2s ease-in-out;
+}
+.box2:hover{
+    width: 500px;
+}
+.box2 img{
+    width: 500px;
+    height: 400px;
+}
+.box3{
+    background-color:blanchedalmond;
+    width: 400px;
+    height: 400px;
+    transition: width 2s ease-in-out;
+}
+.box3:hover{
+    width: 500px;
+}
+.box3 img{
+    width: 500px;
+    height: 400px;
+}
+.boxes{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    right: 100px;
+    
+}
+.civitasway {
+    justify-content: center;
+    text-align: center ;
+    font-weight: bold;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
